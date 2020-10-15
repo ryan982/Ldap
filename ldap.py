@@ -1,3 +1,19 @@
+-----------------------------------------------------------------------------------------------------------------------
+Server details
+
+LDAP Server Information (read-only access):
+
+Server: ldap.forumsys.com  
+Port: 389
+
+Bind DN: cn=read-only-admin,dc=example,dc=com
+Bind Password: password
+
+All user passwords are password.
+
+------------------------------------------------------------------------------------------------------------------------
+
+
 from ldap3 import Server, Connection, ALL
 import xlsxwriter
 
